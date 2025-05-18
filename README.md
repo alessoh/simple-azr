@@ -8,6 +8,7 @@ Solving these self-proposed tasks
 Learning from the results through reinforcement learning
 
 Unlike traditional approaches that rely on human-curated datasets, AZR allows a model to continuously improve by generating its own learning curriculum.
+
 # Project Structure
 simple-azr/
 ├── requirements.txt
@@ -31,7 +32,8 @@ simple-azr/
 │       ├── policy.py
 │       └── rewards.py
 └── outputs/  # Created during runtime
-#File Descriptions
+
+# File Descriptions
 
 main.py: Entry point that orchestrates the training process
 configs/default.yaml: Configuration settings for the training
@@ -61,7 +63,7 @@ conda activate simple-azr
 # Install dependencies
 pip install -r requirements.txt
 Usage
-Run
+# Run
 python main.py --model_name gpt2-medium --num_steps 5
 Run the training process:
 bashpython main.py --model_name distilgpt2 --num_steps 500
