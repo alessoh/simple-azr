@@ -70,7 +70,7 @@ simple-azr/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/simple-azr.git
+git clone https://github.com/alessoh/simple-azr.git
 cd simple-azr
 
 # Create and activate conda environment
@@ -116,14 +116,6 @@ This simplified implementation can be extended in various ways:
 ## Reference
 
 This project is based on concepts from the paper:
-```
-@article{zhao2025absolute,
-  title={Absolute Zero: Reinforced Self-play Reasoning with Zero Data},
-  author={Zhao, Andrew and Wu, Yiran and et al.},
-  journal={arXiv preprint},
-  year={2025}
-}
-```
 
 Paper URL: [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335)
 
@@ -131,7 +123,7 @@ Paper URL: [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https:
 
 MIT License
 
-Copyright (c) 2025 Your Name
+Copyright (c) 2025 H. Peter Alesso, AI HIVE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
