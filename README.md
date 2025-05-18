@@ -1,14 +1,14 @@
-Simple AZR - Absolute Zero Reasoner
+# Simple AZR - Absolute Zero Reasoner
 A simplified implementation of the Absolute Zero Reasoner (AZR) concept from the paper "Absolute Zero: Reinforced Self-play Reasoning with Zero Data". This project demonstrates how a language model can learn to reason through self-play without any external data.
-Overview
+# Overview
 The Absolute Zero paradigm enables models to learn reasoning capabilities by:
 
-Proposing their own challenging tasks
+# Proposing their own challenging tasks
 Solving these self-proposed tasks
 Learning from the results through reinforcement learning
 
 Unlike traditional approaches that rely on human-curated datasets, AZR allows a model to continuously improve by generating its own learning curriculum.
-Project Structure
+# Project Structure
 simple-azr/
 ├── requirements.txt
 ├── README.md
@@ -31,7 +31,7 @@ simple-azr/
 │       ├── policy.py
 │       └── rewards.py
 └── outputs/  # Created during runtime
-File Descriptions
+#File Descriptions
 
 main.py: Entry point that orchestrates the training process
 configs/default.yaml: Configuration settings for the training
@@ -49,7 +49,7 @@ induction.py: Given input-output pairs, synthesize the function
 azr/training/policy.py: Policy update mechanism for reinforcement learning
 azr/training/rewards.py: Reward calculation functions
 
-Installation
+# Installation
 bash# Clone the repository
 git clone https://github.com/yourusername/simple-azr.git
 cd simple-azr
@@ -72,7 +72,7 @@ Arguments:
 --output_dir: Directory to save outputs (default: outputs)
 --num_steps: Number of training steps (default: 500)
 
-How It Works
+# How It Works
 
 Initialization: The model starts with a minimal set of seed tasks
 Propose Phase: The model generates new challenging tasks of three types
@@ -80,7 +80,7 @@ Solve Phase: The model attempts to solve its proposed tasks
 Update Phase: The model is updated based on rewards from solving performance
 Repeat: The loop continues, with tasks growing in complexity over time
 
-Extending the Project
+# Extending the Project
 This simplified implementation can be extended in various ways:
 
 Use more advanced language models
@@ -88,7 +88,7 @@ Add more complex task types
 Implement more sophisticated reward functions
 Scale up the training process
 
-Reference
+# Reference
 This project is based on concepts from the paper:
 @article{zhao2025absolute,
   title={Absolute Zero: Reinforced Self-play Reasoning with Zero Data},
