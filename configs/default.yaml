@@ -1,0 +1,15 @@
+
+# Sample configuration file for the Simple AZR project
+# configs/default.yaml
+
+# Buffer settings
+buffer_size: 1000
+seed_examples: 5
+
+# Training settings
+batch_size: 8
+learning_rate: 0.00001  # 1e-5 as a decimal number
+
+# Logging and saving
+log_interval: 1
+save_interval: 100

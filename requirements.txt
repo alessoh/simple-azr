@@ -1,0 +1,9 @@
+torch
+transformers
+pyyaml
+tqdm
+numpy
+bitsandbytes 
+accelerate 
+optimum 
+auto-gptq
